@@ -60,7 +60,7 @@ class CalculatorApp(App):
         elif button_text == '<-X':
             self.solution.text = self.solution.text[:-1]
         elif button_text == 'π':
-            self.solution.text += '3,141592'
+            self.solution.text += '3.141592'
         else:
             if current and (self.last_was_operator and (button_text in self.operators or button_text in self.ns_operators)):
                 return
