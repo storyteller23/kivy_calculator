@@ -15,7 +15,7 @@ class CalculatorApp(App):
 
         main_layout = BoxLayout(orientation='vertical')
         self.solution = TextInput(background_color='white', foreground_color='black', multiline=True, halign='right',
-                                  font_size=170, readonly=True, height=55)
+                                  font_size=130, readonly=True, height=65)
 
         main_layout.add_widget(self.solution)
         buttons = [
